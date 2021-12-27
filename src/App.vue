@@ -4,6 +4,7 @@
     <Main />
     <Banner />
     <PreFooter />
+     <PostFooter />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Banner from "./components/Banner.vue";
 import PreFooter from "./components/PreFooter.vue";
+import PostFooter from "./components/PostFooter.vue";
 
 
 export default {
@@ -22,6 +24,7 @@ export default {
     Main,
     Banner,
     PreFooter,
+    PostFooter,
   },
 };
 </script>
